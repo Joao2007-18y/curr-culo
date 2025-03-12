@@ -48,7 +48,7 @@ div {
     display: inline-block;
     margin-top: 10px;
     text-decoration: none;
-    background-color: #007BFF;
+    background-color: #0270e6;
     color: white;
     padding: 8px 15px;
     border-radius: 5px;
@@ -59,13 +59,20 @@ div {
     display: inline-block;
     margin-top: 10px;
     text-decoration: none;
-    background-color: #007BFF;
+    background-color: #0270e6;
     color: white;
     padding: 8px 15px;
     border-radius: 5px;
     font-size: 14px;
     transition: 0.3s;
 }
-#linkedin{
-    
+#linkedin img{
+    width:50px;
+    position:relative;
+    top: 20px; left: 10px;
+}
+#email img{
+    width:30px;
+    position:relative;
+    top: 7px;
 }
