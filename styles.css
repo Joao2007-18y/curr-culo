@@ -1,78 +1,64 @@
-body{
+/* Estilos gerais */
+body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
+    background-color: #f4f4f4;
     text-align: center;
-    font-size: 15px;
-    align-items: center;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
 }
 
-div {
+/* Estrutura dos blocos */
+section, header {
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 600px;
+}
 
-    text-align: center;
-}
-#sobre h2{
-    background-color: white;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    border-radius: 8px;
-}
-#experiencia h2{
-    background-color: white;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    border-radius: 8px;
-}
-#habilidades h2{
-    background-color: white;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    border-radius: 8px;
-}
-#contato h2{
-    background-color: white;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    border-radius: 8px;
-}
-#titulo {
-    background-color: white;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    border-radius: 8px; 
-}
-#titulo img{
+/* Foto do perfil */
+#titulo img {
     border-radius: 50%;
-    border: 3px solid rgb(230, 205, 205);
+    border: 3px solid #e6cdcd;
 }
+
+/* Links de contato */
 #contato a {
     display: inline-block;
     margin-top: 10px;
     text-decoration: none;
     background-color: #0270e6;
     color: white;
-    padding: 8px 15px;
+    padding: 10px 20px;
     border-radius: 5px;
     font-size: 14px;
     transition: 0.3s;
 }
-#email a{
-    display: inline-block;
-    margin-top: 10px;
-    text-decoration: none;
-    background-color: #0270e6;
+
+#contato a:hover {
+    background-color: #0256b8;
+}
+
+/* Ícones */
+#linkedin img, #email img {
+    width: 40px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* Lista de habilidades */
+#habilidades ul {
+    list-style: none;
+    padding: 0;
+}
+
+#habilidades li {
+    background: #0270e6;
     color: white;
-    padding: 8px 15px;
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
     border-radius: 5px;
-    font-size: 14px;
-    transition: 0.3s;
-}
-#linkedin img{
-    width:50px;
-    position:relative;
-    top: 20px; left: 10px;
-}
-#email img{
-    width:30px;
-    position:relative;
-    top: 7px;
 }
